@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Date start
-first_commit_date=$(date -d "2022-01-09 09:00:00" +%s)
+first_commit_date=$(date -d "2017-09-09 09:00:00" +%s)
 # Date end
 last_commit_date=$(date -d "2024-11-28 18:00:00" +%s) 
 # Nowadays
@@ -29,10 +29,10 @@ while [ $timestamp -le $last_commit_date ]; do
 
     # Skip weekends -lt 6
     if [ $day_of_week -lt 6 ]; then
-        chance_create_commit_in_current_day=17 # 17%
+        chance_create_commit_in_current_day=5 # 5%
         
         if [ $((RANDOM % 100)) -lt $chance_create_commit_in_current_day ]; then
-            amount_of_commits=$((RANDOM % 20 + 1))
+            amount_of_commits=$((RANDOM % 5 + 1))
 
             # Commits Loop
             for i in $(seq 1 $amount_of_commits); do
