@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Date start
-first_commit_date=$(date -d "2017-09-12 09:00:00" +%s)
+first_commit_date=$(date -d "2020-01-09 09:00:00" +%s)
 # Date end
-last_commit_date=$(date -d "2019-12-31 18:00:00" +%s) 
+last_commit_date=$(date -d "2021-12-30 18:00:00" +%s) 
 # Nowadays
 current_date=$(date +"%Y-%m-%d %H:%M:%S")
 
