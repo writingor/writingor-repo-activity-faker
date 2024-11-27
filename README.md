@@ -19,4 +19,5 @@ The program will create files and immediately commit them locally at a specific 
 
 ## Note
 
-Of course, make sure that **"Show activity from private repositories"** is enabled in your GitHub settings.
+1. Of course, make sure that **"Show activity from private repositories"** is enabled in your GitHub settings.
+2. A large number of files could be overwhelming for GitHub. It's better to **upload your files in smaller portions**, perhaps by delivering them over 2 or 3 years.
