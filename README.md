@@ -9,13 +9,14 @@ The program will create files and immediately commit them locally at a specific 
 ## Usage
 
 1. **Create a private repo**  
-2. **Clone the repo**  
-3. **Place this program in your repo**
-4. **Change the `first_commit_date` to whatever you want**
-5. **Run the script**
-6. **Push the created files to your repo**
+2. **Clone your repo**  
+3. **Place this program `writingor-repo-activity-faker.sh` into your repo**
+4. **Change the `first_commit_date`, `last_commit_date`, `chance_create_commit_in_current_day` and `amount_of_commits` to whatever you want**
+5. **Update script premission `chmod +x ./writingor-repo-activity-faker.sh`**
+6. **Run the script `./writingor-repo-activity-faker.sh`**
+7. **Push the created files to your repo `git push`**
 
-**And enjoy your "hard developer's work" activity!**
+**Enjoy your "hard developer's work" activity!**
 
 ## Note
 
