@@ -6,6 +6,14 @@ No problem!
 
 The program will create files and immediately commit them locally at a specific random date and time. It will continue doing this until the current date.
 
+## Results
+
+### Before
+![Before script execution](https://github.com/writingor/writingor-repo-activity-faker/tree/main/static/img/before-script-execution.png?raw=true)
+
+### After
+![After script execution](https://github.com/writingor/writingor-repo-activity-faker/tree/main/static/img/after-script-execution.png?raw=true)
+
 ## Usage
 
 1. **Create a private repo**  
