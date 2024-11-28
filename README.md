@@ -8,11 +8,9 @@ The program will create files and immediately commit them locally at a specific 
 
 ## Results
 
-### Before
-![Before script execution](https://github.com/writingor/writingor-repo-activity-faker/blob/main/static/img/before-script-execution.png?raw=true)
-
-### After
-![After script execution](https://github.com/writingor/writingor-repo-activity-faker/blob/main/static/img/after-script-execution.png?raw=true)
+| **Before**             | **After**                                       |
+|------------------------|------------------------------------------------|
+| ![Before script execution](https://github.com/writingor/writingor-repo-activity-faker/blob/main/static/img/before-script-execution.png?raw=true) | ![After script execution](https://github.com/writingor/writingor-repo-activity-faker/blob/main/static/img/after-script-execution.png?raw=true) |
 
 ## Usage
 
