@@ -4,8 +4,6 @@
 first_commit_date=$(date -d "2024-11-29 09:00:00" +%s)
 # Date end
 last_commit_date=$(date -d "2026-12-28 18:00:00" +%s) 
-# Nowadays
-current_date=$(date +"%Y-%m-%d %H:%M:%S")
 
 # Working hours
 generate_random_time() {
@@ -60,5 +58,6 @@ while [ $timestamp -le $last_commit_date ]; do
 done
 
 # Reset DATE
+current_date=$(date +"%Y-%m-%d %H:%M:%S")
 export GIT_COMMITTER_DATE=$current_date
 export GIT_AUTHOR_DATE=$current_date
